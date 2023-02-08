@@ -25,23 +25,23 @@ namespace _11_Calificacion_Lit
 
             if (promedio <= 59)
             {
-                Console.WriteLine("F - Reprobado (CON LO CARMELITA) ");
+                Console.WriteLine("F - Reprobado    ");
             }
             else if (promedio >= 60 && promedio <= 69)
             {
-                Console.WriteLine("D - Reprobado (NO DUERME TU HOY)");
+                Console.WriteLine("D - Reprobado   ");
             }
             else if (promedio >= 70 && promedio <= 79)
             {
-                Console.WriteLine("C - Aprobado (LA C DE CAMPEON NUNCA TERMINA)");
+                Console.WriteLine("C - Aprobado  ");
             }
             else if (promedio >= 80 && promedio <= 89)
             {
-                Console.WriteLine("B - Aprobado (TA BIEN)");
+                Console.WriteLine("B - Aprobado  ");
             }
             else if (promedio >= 90 && promedio <= 100)
             {
-                Console.WriteLine("A - Aprobado (OK PANA TU ERE DURO PERO POR TU CASA) ");
+                Console.WriteLine("A - Aprobado   ");
             }
 
             Console.ReadLine();
