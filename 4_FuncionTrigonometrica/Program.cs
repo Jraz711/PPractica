@@ -45,12 +45,12 @@ namespace _4_FuncionTrigonometrica
 
                     case 3:
 
-                        resultado = Math.Sin(radianes);
+                        resultado = 1/ Math.Sin(radianes);
                         break;
 
                     case 4:
 
-                        resultado = Math.Cosh(radianes);
+                        resultado = 1/ Math.Cos(radianes);
                         break;
 
                     case 5:
